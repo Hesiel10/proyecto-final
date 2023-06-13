@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 203, 114);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #d6a53b;
+}
+
+
+h1, h2 {
+    text-align: center;
+  }
+  
+#menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+img{
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.tipo {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+  
+.tipo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+  
+.order-btn {
+    background-color: #b34216;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30em;
+    cursor: pointer;
+}
+
+.retn-btn {
+    background-color: #623680;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30em;
+    cursor: pointer;
+}
+  
+#carrito {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#carrito li {
+    margin-bottom: 10px;
+}

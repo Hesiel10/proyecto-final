@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagenes/logo1.png" alt="" height="200px">
+        </div>
+        <nav>
+            <a href=".."> <button class="retn-btn">Regresar a la pagina</button> </a>
+        </nav>
+    </header>
+
+    <h1>Pedidos</h1>
+
+<div id="menu">
+    <div class="tipo">
+      <img src="/imagenes/logcar.avif" alt="Res">
+      <h2>Res</h2>
+      <p>Todos los platos con carne de res tienen un precio de 30bs.</p>
+      <button class="order-btn" onclick="agregarAlCarrito('Res 30bs')">Agregar al carrito</button>
+    </div>
+
+    <div class="tipo">
+      <img src="/imagenes/logpol.jpg" alt="Pollo">
+      <h2>Pollo</h2>
+      <p>Todos los platos con carne de pollo tienen un precio de 25bs.</p>
+      <button class="order-btn" onclick="agregarAlCarrito('Pollo 25bs')">Agregar al carrito</button>
+    </div>
+
+  <div class="tipo">
+    <img src="/imagenes/logcer.jpg" alt="Cerdo">
+    <h2>Cerdo</h2>
+    <p>Todos los platos con carne de cerdo tienen un precio de 35bs.</p>
+    <button class="order-btn" onclick="agregarAlCarrito('Cerdo 35bs')">Agregar al carrito</button>
+  </div>
+</div>
+
+<h2>Carrito de Pedidos</h2>
+<ul id="carrito"></ul>
+
+
+
+    <script language="javascript" src="main.js"></script>
+
+
+</body>
+</html>
